@@ -1,4 +1,4 @@
-# Blockchain or Bust- Kontinuasjonsoppgave PGR301 20204
+# Blockchain Busters- Kontinuasjonsoppgave PGR301 20203
 
 ## Krav til leveransen
 
