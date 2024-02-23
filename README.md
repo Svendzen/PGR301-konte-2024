@@ -92,5 +92,7 @@ C. Kjør Terraform apply minst en gang, slik at et repository som heter "nbx" bl
 
 - Oppdater din GitHub Actions workflow fra oppgave 1 slik at hver push til *main*-branchen bygger et containerimage og pusher container image til repository du lagde i oppgave 2.  
 - Ved hver push til en annen branch enn *main*, skal det fortsatt bygges et containerimage, men det skal ikke gjøres en push til Docker Hub.
+- Pass spesielt godt å ikke sjekke inn hemmeligheter.
+- Beskriv hva sensor må gjøre med sin fork av ditt repo for å få workflow til å fungere med in DockerHub konto.
 
 Hvilke docker kommando kan sensor bruke for å kjøre ditt container image på sin maskin?
