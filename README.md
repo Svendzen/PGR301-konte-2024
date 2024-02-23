@@ -1,4 +1,4 @@
-# Blockchain Busters- Kontinuasjonsoppgave PGR301 20203
+# Blockchain Busters- Kontinuasjonsoppgave PGR301 2023/2024
 
 ## Krav til leveransen
 
