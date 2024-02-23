@@ -63,7 +63,7 @@ C. Reflekter over fordeler og ulemper med en arbeidsflyt der minst to personer i
 ### Oppgave 2 - Terraform - Infrastruktur som Kode
 
 - Opprett en konto på Docker Hub hvis du ikke allerede har det.
-- Advarsel; hvis du leverer et reelt brukeravn og passord for en Dockerhub-konto i bevarelse på denne oppgaven får du automatisk 0 poeng på denne oppgavne.
+- Advarsel; hvis du leverer et reelt brukeravn og passord for en Dockerhub-konto i bevarelse på denne oppgaven får du automatisk 0 poeng.
  
 BCB ønsker å konfigurere alle repositoriene sine på Docker Hub ved hjelp av Terraform. De har funnet en Terraform provider som kan opprette Docker Hub repositories.
 * https://registry.Terraform.io/providers/BarnabyShearer/dockerhub/latest/docs
