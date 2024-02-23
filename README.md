@@ -41,8 +41,7 @@ For å sikre minimal forsinkelse og optimal ytelse, har CTO valgt å bruke progr
 - `Dockerfile`
 
 Koden viser den høyeste prisen noen er villig til å betale, og den laveste prisen noen er villige for å selge
-BitCoin for å kryptobørsen NBX. Koden ser bare å første "page" i responsen. Differansnen kalles gjerne "Spread"
-dokumentasjon https://app.nbx.com/developers#tag/Order-Book
+BitCoin for på kryptobørsen NBX. Differansnen kalles gjerne "Spread". Dokumentasjon finnes her : https://app.nbx.com/developers#tag/Order-Book
 
 ### Oppgave 1 - GitHub Actions Workflow
 
