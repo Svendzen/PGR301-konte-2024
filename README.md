@@ -63,7 +63,8 @@ C. Reflekter over fordeler og ulemper med en arbeidsflyt der minst to personer i
 ### Oppgave 2 - Terraform - Infrastruktur som Kode
 
 - Opprett en konto på Docker Hub hvis du ikke allerede har det.
-
+- Advarsel; hvis du leverer et reelt brukeravn og passord for en Dockerhub-konto i bevarelse på denne oppgaven får du automatisk 0 poeng på denne oppgavne.
+ 
 BCB ønsker å konfigurere alle repositoriene sine på Docker Hub ved hjelp av Terraform. De har funnet en Terraform provider som kan opprette Docker Hub repositories.
 * https://registry.Terraform.io/providers/BarnabyShearer/dockerhub/latest/docs
   Ifølge dokumentasjonen er dette ressursen man må bruke:
@@ -81,9 +82,11 @@ A. Skriv Terraformkode som lager et Docker Hub repository som heter "nbx".
 * Lag en egen mappe med navn "infra" i ditt repository
 * Terraformkoden skal kreve Terraform versjon 1.6.4 eller høyere.
 * Du trenger ikke tenke på Terraform backend-konfigurasjon, Terraformkoden skal ikke kjøre i en GitHub Actions workflow
-* Docker-Hub brukernavn, og navn på repository skal ikke hardkodes. Du må skal bruke terraform variabler
+* Docker-Hub brukernavn, og navn på repository skal ikke hardkodes. Du må skal bruke terraform variabler. (Se Advarssel)
+  
+B. Beskriv hva sensor må gjøre for å få terraform-koden til å kjøre på sin maskin, og på sin Docker-hub konto. 
 
-B. Kjør Terraform apply minst en gang, slik at et repository som heter "nbx" blir opprettet. Slett filen "Terraform.tfstate" kjør Terraform apply en gang til. Forklar hvorfor du får en feilmelding, og hvordan du kan løse dette
+C. Kjør Terraform apply minst en gang, slik at et repository som heter "nbx" blir opprettet. Slett filen "Terraform.tfstate" kjør Terraform apply en gang til. Forklar hvorfor du får en feilmelding, og hvordan du kan løse dette
 
 ### Oppgave - Docker Hub push
 
