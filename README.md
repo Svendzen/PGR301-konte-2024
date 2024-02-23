@@ -88,7 +88,7 @@ B. Beskriv hva sensor må gjøre for å få terraform-koden til å kjøre på si
 
 C. Kjør Terraform apply minst en gang, slik at et repository som heter "nbx" blir opprettet. Slett filen "Terraform.tfstate" kjør Terraform apply en gang til. Forklar hvorfor du får en feilmelding, og hvordan du kan løse dette
 
-### Oppgave - Docker Hub push
+### Oppgave 3 - Docker Hub push
 
 - Oppdater din GitHub Actions workflow fra oppgave 1 slik at hver push til *main*-branchen bygger et containerimage og pusher container image til repository du lagde i oppgave 2.  
 - Ved hver push til en annen branch enn *main*, skal det fortsatt bygges et containerimage, men det skal ikke gjøres en push til Docker Hub.
