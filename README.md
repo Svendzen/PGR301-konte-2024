@@ -84,7 +84,7 @@ A. Skriv Terraformkode som lager et Docker Hub repository som heter "nbx".
 * Du trenger ikke tenke på Terraform backend-konfigurasjon, Terraformkoden skal ikke kjøre i en GitHub Actions workflow
 * Docker-Hub brukernavn, og navn på repository skal ikke hardkodes. Du må skal bruke terraform variabler. (Se Advarssel)
   
-B. Beskriv hva sensor må gjøre for å få terraform-koden til å kjøre på sin maskin, og på sin Docker-hub konto. 
+B. Beskriv hva sensor må gjøre for å få terraform-koden til å kjøre på sin maskin, og med sin Docker-hub konto. 
 
 C. Kjør Terraform apply minst en gang, slik at et repository som heter "nbx" blir opprettet. Slett filen "Terraform.tfstate" kjør Terraform apply en gang til. Forklar hvorfor du får en feilmelding, og hvordan du kan løse dette
 
