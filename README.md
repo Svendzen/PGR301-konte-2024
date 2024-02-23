@@ -84,7 +84,7 @@ B. Kjør Terraform apply minst en gang, slik at et repository som heter "nbx" bl
 
 ### Oppgave - Docker Hub push
 
-- Oppdater din GitHub Actions workflow fra oppgave 1 slik at hver push til *kun main-branchen* bygger et containerimage og pusher container image til repository du lagde i oppgave 2.  
-- Ved hver push til en annen branch enn *main*, skal det fortsatt bygges et containerimage, men det skal altså ikke gjøres en push til Docker Hub.
+- Oppdater din GitHub Actions workflow fra oppgave 1 slik at hver push til *main*-branchen bygger et containerimage og pusher container image til repository du lagde i oppgave 2.  
+- Ved hver push til en annen branch enn *main*, skal det fortsatt bygges et containerimage, men det skal ikke gjøres en push til Docker Hub.
 
 Hvilke docker kommando kan sensor bruke for å kjøre ditt container image på sin maskin?
