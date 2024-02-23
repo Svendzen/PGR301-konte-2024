@@ -1,4 +1,5 @@
 # Blockchain Busters- Kontinuasjonsoppgave PGR301 2023/2024
+# Blockchain Busters- Kontinuasjonsoppgave PGR301 2023/2024
 
 ## Krav til leveransen
 
@@ -19,7 +20,7 @@ Når oppgaven evalueres, vil han/hun:
 ## Om bruk av KI
 
 * Det er viktig at du forstår all kode og alle deler av det du leverer. Dersom svar på en oppgave innholder elementer som ikke er nødvendig for å løse oppgaven, vil dette medføre trekk av poeng. 
-* Det samme gjelder forøvrig copy/paste fra 
+
 # Evaluering
 
 - Oppgave 1. GitHub Actions workflow - 30 Poeng
