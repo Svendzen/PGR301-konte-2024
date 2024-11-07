@@ -1,0 +1,11 @@
+on:
+    push:
+        branches:
+            - '**'  # trigges på push til hvilken som helst branch
+            
+jobs:
+    build-deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/check@v2
+            - run: docker build . -t nbx
